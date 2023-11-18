@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+}
+.weather-div{
+    margin: 0 auto;
+    width: 1000px;
+}
+.search-div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#search{
+    width: 200px;
+    height: 30px;
+    border-radius:15px ;
+}
+.button{
+    border-radius: 10px;
+    width:90px;
+    height: 35px;
+    background-color: aliceblue;
+
+}
+.button:hover{
+    background-color: #04051a;
+    border: solid white 1px;
+    color: white;
+}
+.search-div{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    justify-content: center;
+}
+.result-div{
+    border: white solid 1px;
+    width: 900px;
+    height: 450px;
+    border-radius:15px;
+    color: white;
+    background: rgb(235,21,240);
+    background: linear-gradient(229deg, rgba(235,21,240,1) 29%, rgba(0,64,228,1) 71%);
+    margin: 0 auto;
+    
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.country{
+    font-size: 2rem;
+   padding:40px 0 0 20px ;
+}
+
+.left-content{
+    display: flex;
+    justify-content: baseline;
+
+}
+.temp{
+    font-size: 4rem;
+    padding:0 0 0  250px;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-content{
+    font-size: 1.5rem;
+    height: 80px;
+    display: flex;
+    align-items: space-between;
+    
+}
+.options-div{
+    padding-left: 150px;
+}
+h1{
+    color: white;
+}
+.error{
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
